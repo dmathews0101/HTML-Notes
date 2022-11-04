@@ -544,7 +544,45 @@ USA
 
 HTML <cite> for Work Title
 
+The HTML <cite> tag defines the title of a creative work ( e.g. a book, 
+a poem, a song, a movie, a painting, a sculpture, etc.).
 
+Note: A person's name is not the title of a work.
+
+The text in the <cite> element usually renders in italic.
+
+Example
+
+```html
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+```
+
+HTML <bdo> for Bi-Directional Override
+
+BDO stands for Bi-Directional Override.
+
+The HTML <bdo> tag is used to override the current text direction.
+
+Example
+```html
+<bdo dir="rtl">This text will be written from right to left</bdo>
+```
+
+HTML Quotation and Citation Elements
+
+
+## 11 HTML Comments
+
+HTML comments are not displayed in the browser, but they can help 
+document your HTML source code.
+
+HTML Comment Tag
+
+You can add comments to your HTML source by using the following syntax.
+
+```html
+<!-- Write your comments here -->
+```
 
 
 
