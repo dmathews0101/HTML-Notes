@@ -571,7 +571,7 @@ Example
 HTML Quotation and Citation Elements
 
 
-## 11 HTML Comments
+## 12 HTML Comments
 
 HTML comments are not displayed in the browser, but they can help 
 document your HTML source code.
