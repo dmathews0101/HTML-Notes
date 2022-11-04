@@ -412,3 +412,141 @@ Example
 Chapter Summary
 
 ## 10 HTML Text Formatting
+
+HTML contains several elements for defining text with a special meaning.
+
+Example
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><b>This text is bold</b></p>
+<p><i>This text is italic</i></p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+
+</body>
+</html>
+```
+
+HTML Formatting Elements
+
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+HTML <b> and <strong> Elements
+HTML <i> and <em> Elements
+HTML <small> Element
+HTML <mark> Element
+HTML <del> Element
+HTML <ins> Element
+HTML <sub> Element
+HTML <sup> Element
+
+HTML Text Formatting Elements
+
+## 11 HTML Quotation and Citation Elements
+
+In this chapter we will go through the <blockquote>, <q>, <abbr>, <address>
+<cite>, and <bdo> HTML elements.
+
+Example
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+
+</body>
+</html>
+
+```
+
+HTML <blockquote> for Quotations
+
+The HTML <blockquote> element defines a section that is quoted from another
+source. Browsers usually indent <blockquote> elements.
+
+Example
+```html
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+```
+
+HTML <q> for Short Quotations
+
+The HTML <q> tag defines a short quotation. Browsers normally insert quotation
+marks around the quotation.
+
+Example
+```html
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+```
+
+HTML <abbr> for Abbreviations
+
+The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS",
+"Mr.","Dr.","ASAP","ATM".
+
+Making abbreviations can give useful information to browsers, translation systems
+and search-engines.
+Tip:Use the global title attribute to show the description for the abbreviation/
+acronym when you mouse over the element.
+
+Example
+```html
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+```
+
+HTML <address> for Contant Information
+
+The HTML <address> tag defines the contact information for the author/owner
+of a document or an article. The contact information can be an email
+address, URL, physical address, phone number, social meadia handle, etc.
+The text in the <address> element usually renders in italic, and browsers
+will always add a line break before and after the <address> element.
+
+Example :
+```html
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+```
+
+HTML <cite> for Work Title
+
+
+
+
+
+
+

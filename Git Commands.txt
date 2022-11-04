@@ -1,0 +1,13 @@
+
+How to undo a git commit 
+
+git commit -m "wrong commit name"
+git reset HEAD~
+[ editing files ]
+git add .
+
+git commit -m "fifth commit" 
+
+or
+
+git commit -c ORIG_HEAD
