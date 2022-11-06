@@ -1059,7 +1059,210 @@ CSS stands for Cascading Style Sheets.
 CSS saves a lot of work. It can control the layout of multiple web pages all
 at once.
 
+CSS = Styles and Colors
+Manipulate text colors, boxes
 
+What is CSS?
+Using CSS
+
+CSS can be added to HTL documents in 3 ways.
+
+>Inline
+>Internal
+>External
+
+Inline CSS
+
+Example 
+
+```html
+<h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p>
+```
+
+Internal CSS
+
+Example
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+External CSS
+
+Example
+
+```html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+```
+
+styles.css
+
+```css
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+```
+
+CSS Colors, Fonts and Sizes
+
+Example
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+CSS Border
+
+Example
+
+```html
+p {
+  border: 2px solid powderblue;
+}
+```
+
+CSS Padding
+
+Example
+
+```html
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+```
+
+CSS margin
+
+Example
+
+```html
+p {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+```
+
+Link to External CSS
+
+Example
+
+```html
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+```
+
+Example
+
+```html
+<link rel="stylesheet" href="/html/styles.css">
+
+```
+
+Example
+
+```html
+<link rel="stylesheet" href="styles.css">
+
+```
+
+Chapter Summary
+HTML Style Tags
+
+
+## 18 HTML Links
+
+Links are found in nearly all web pages. Links allow users to click their
+way from page to page.
+
+HTML Links - Hyperlinks
+
+HTML Links - Syntax
+
+Example
+
+```html
+<a href="url">link text</a>
+```
+
+Example
+
+```html
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+```
+
+HTML Links - The target Attribute
+
+The target attribute can have one of the following values.
+> _self
+> _blank
+> _parent
+> _top
+
+Example
+
+```html
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+```
+
+Absolute URLs vs. Relative URLs
 
 
 
