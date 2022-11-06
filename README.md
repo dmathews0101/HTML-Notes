@@ -1025,8 +1025,39 @@ HSLA Color Values
 HSLA color values are an extension of HSL color values, with an 
 Alpha channel - which specifies the opacity for a color.
 
+An HSLA color value is specifed with :
 
+hsla(hue, saturation, lightness, alpha)
 
+The alpha parameter is a number between 0.0 ( fully transparent ) and 
+1.0 ( not transparent at all ) :
+
+Experiment by mixing the HSLA values below:
+
+Example
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:hsla(9, 100%, 64%, 0);">hsla(9, 100%, 64%, 0)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.2);">hsla(9, 100%, 64%, 0.2)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.4);">hsla(9, 100%, 64%, 0.4)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.6);">hsla(9, 100%, 64%, 0.6)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.8);">hsla(9, 100%, 64%, 0.8)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 1);">hsla(9, 100%, 64%, 1)</h1>
+
+</body>
+</html>
+
+```
+
+## 17 HTML Styles - CSS
+
+CSS stands for Cascading Style Sheets.
+CSS saves a lot of work. It can control the layout of multiple web pages all
+at once.
 
 
 
