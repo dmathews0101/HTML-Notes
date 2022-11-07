@@ -1343,7 +1343,214 @@ has been visited, is unvisited, or is active.
 
 HTML Link Colors
 
+Example
 
+```html
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+```
+
+Link Buttons
+
+Example
+
+```html
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+```
+
+HTML Link Tags
+
+
+## 20 HTML Links - Create Bookmarks
+
+HTML links can be used to create bookmarks, so readers can jump to 
+specific parts of a web page.
+
+Create a Bookmark in HTML
+Example
+
+```html
+<h2 id="C4">Chapter 4</h2>
+<a href="#C4">Jump to Chapter 4</a>
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+Chapter Summary
+HTML Link Tags
+
+
+## 21 HTML Images
+
+Example
+
+```html
+<img src="pic_trulli.jpg" alt="Italian Trulli">
+```
+
+HTML Images Syntax
+
+Syntax
+
+```html
+<img src="url" alt="alternatetext">
+```
+
+The src Attribute
+The alt Attribute
+
+Image Size - Width and Height
+
+Example
+
+```html
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+```
+
+```html
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+```
+
+Width and Height, or Style?
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This style sets the width of all images to 100%: */
+img {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<h2>Width/Height Attributes or Style?</h2>
+
+<p>The first image uses the width attribute (set to 128 pixels), but the style in the head section overrides it, and sets the width to 100%.</p>
+
+<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+
+<p>The second image uses the style attribute to set the width to 128 pixels, this will not be overridden by the style in the head section:</p>
+
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+</body>
+</html>
+
+```
+
+Images in Another Folder
+
+```html
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+```
+
+Images on Another Server/Website
+
+Example
+
+```html
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+```
+
+Animated Images
+
+Example
+
+```html
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+```
+ 
+Images as a Link
+
+Example
+```html
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+```
+
+Image Floating
+
+Example
+
+```html
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p>
+```
+
+Common Image Formats
+Chapter Summary
+HTML Image Tags
+
+## 22 HTML Image Maps
+
+Image Maps
+
+Example
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+</body>
+</html>
+
+```
+
+How does it work?
 
 
 
